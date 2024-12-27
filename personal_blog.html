@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Blog - Mays Suhail Asfour</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#about">About Me</a></li>
+                <li><a href="#profile">Profile</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <li><a href="https://www.linkedin.com/in/mayssuhail/" target="_blank">LinkedIn</a></li>
+                <li><a href="https://github.com/maysasfour" target="_blank">GitHub</a></li>
+            </ul>
+        </nav>
+        <article id="about">
+            <h1>Mays Suhail Asfour</h1>
+            <p>
+                I have 3 years of experience in software development and graphic design, <br> 
+                working on freelance projects that enhance user experience. <br> 
+                Currently, I volunteer at Nahno, contributing to impactful community initiatives. <br>
+                I'm studying Software Engineering at Middle East University in Jordan <br>
+                and holding a Higher National Diploma from Abdul Aziz Al Ghurair School of Advanced Computing.<br>
+                My skills include programming, graphic design, and creative problem-solving.
+            </p>
+            <figure>
+                <img src="mays.jpeg" width="300" height="300" alt="My picture">
+                <figcaption>Software Engineer, Graphic and Motion Designer</figcaption>
+            </figure>
+        </article>
+    </header>
+    <main>
+        <section id="profile">
+            <article>
+                <h2>Profile Information</h2>
+                <h5>Interests</h5>
+                <ul>
+                    <li>Traveling</li>
+                    <li>Designing</li>
+                </ul>
+                <h5>Hobbies</h5>
+                <ul>
+                    <li>Swimming</li>
+                    <li>Reading</li>
+                </ul>
+                <h5>Favorite programming languages</h5>
+                <ol>
+                    <li>Java</li>
+                    <li>Python</li>
+                    <li>C</li>
+                    <li>C#</li>
+                </ol>
+                <h5>Skills</h5>
+                <ol>
+                    <li>Adobe After Effect</li>
+                    <li>Adobe Photoshop</li>
+                    <li>Adobe Illustrator</li>
+                    <li>Adobe Premiere</li>
+                    <li>MERN stack development</li>
+                    <li>ASP.net</li>
+                    <li>Research Skills</li>
+                    <li>Problem-solving</li>
+                    <li>UI and UX</li>
+                </ol>
+            </article>
+        </section>
+        <section id="contact">
+            <h2>Contact Me</h2>
+            <form>
+                <label for="name">Full Name (required):</label>
+                <input type="text" maxlength="50" name="name" required>
+
+                <label for="email">Email Address (required):</label>
+                <input type="email" id="email" name="email" placeholder="someone@info.com" required>
+
+                <label>Gender:</label>
+                <div class="gender-options">
+                    <label><input type="radio" name="gender" value="male"> Male</label>
+                    <label><input type="radio" name="gender" value="female"> Female</label>
+                    <label><input type="radio" name="gender" value="other"> Other</label>
+                </div>
+
+                <label for="feedback">Feedback:</label>
+                <textarea id="feedback" name="feedback" maxlength="200" rows="4"></textarea>
+
+                <input type="submit" value="Submit">
+            </form>
+        </section>
+    </main>
+    <footer>
+        <p>Connect with me on <a href="https://www.linkedin.com/in/mayssuhail/" target="_blank">LinkedIn</a> and <a href="https://github.com/maysasfour" target="_blank">GitHub</a></p>
+    </footer>
+</body>
+</html>
